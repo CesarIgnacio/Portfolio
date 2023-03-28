@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <script defer src="script.js" type="text/javascript"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="second-audio">
+        <img src="tittle.png">
+        <div>
+            <img src="board.jpg" usemap="#image-map">
+
+            <map name="image-map">
+                <area target="" alt="play_song_1" title="play_song_1" coords="6,6,106,56" shape="rect"
+                    onclick="playsong1()">
+                <area target="" alt="pause_song_1" title="pause_song_1" coords="5,74,108,123" shape="rect"
+                    onclick="pausesong1()">
+                <area target="" alt="play_song_2" title="play_song_2" coords="5,144,108,193" shape="rect"
+                    onclick="playsong2()">
+                <area target="" alt="pause_song_2" title="pause_song_2" coords="5,211,107,262" shape="rect"
+                    onclick="pausesong2()">
+                <area target="" alt="play_effect_1" title="play_effect_1" coords="129,2,214,61" shape="rect"
+                    onclick="playbeat1()">
+                <area target="" alt="pause_effect_1" title="pause_effect_1" coords="227,3,311,62" shape="rect"
+                    onclick="pausebeat1()">
+                <area target="" alt="play_effect_2" title="play_effect_2" coords="130,71,212,129" shape="rect"
+                    onclick="playbeat2()">
+                <area target="" alt="pause_effect_2" title="pause_effect_2" coords="228,73,306,129" shape="rect"
+                    onclick="pausebeat2()">
+                <area target="" alt="play_effect_3" title="play_effect_3" coords="129,139,214,199" shape="rect"
+                    onclick="playbeat3()">
+                <area target="" alt="pause_effect_3" title="pause_effect_3" coords="228,139,307,195" shape="rect"
+                    onclick="pausebeat3()">
+                <area target="" alt="play_effect_4" title="play_effect_4" coords="129,206,212,264" shape="rect"
+                    onclick="playbeat4()">
+                <area target="" alt="pause_effect_4" title="pause_effect_4" coords="226,205,309,262" shape="rect"
+                    onclick="pausebeat4()">
+                <area target="" alt="play_effect_5" title="play_effect_5" coords="326,3,411,62" shape="rect"
+                    onclick="playbeat5()">
+                <area target="" alt="pause_effect_5" title="pause_effect_5" coords="425,4,508,63" shape="rect"
+                    onclick="pausebeat5()">
+                <area target="" alt="play_effect_6" title="play_effect_6" coords="326,70,410,130" shape="rect"
+                    onclick="playbeat6()">
+                <area target="" alt="pause_effect_6" title="pause_effect_6" coords="424,70,508,129" shape="rect"
+                    onclick="pausebeat6()">
+                <area target="" alt="play_effect_7" title="play_effect_7" coords="327,136,410,197" shape="rect"
+                    onclick="playbeat7()">
+                <area target="" alt="pause_effect_7" title="pause_effect_7" coords="422,137,506,197" shape="rect"
+                    onclick="pausebeat7()">
+                <area target="" alt="play_effect_8" title="play_effect_8" coords="327,206,408,264" shape="rect"
+                    onclick="playbeat8()">
+                <area target="" alt="pause_effect_8" title="pause_effect_8" coords="423,203,508,263" shape="rect"
+                    onclick="pausebeat8()">
+            </map>
+
+            <audio id="song1" src="audio/song1.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="song2" src="audio/song2.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat1" src="audio/beat1.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat2" src="audio/beat2.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat3" src="audio/beat3.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat4" src="audio/beat4.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat5" src="audio/beat5.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat6" src="audio/beat6.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat7" src="audio/beat7.mp3" type="audio/mp3">Audio element</audio>
+            <audio id="beat8" src="audio/beat8.mp3" type="audio/mp3">Audio element</audio>
+        </div>
+
+    </div>
+</body>
+
+</html>
