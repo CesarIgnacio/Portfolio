@@ -3,10 +3,10 @@ let context = undefined;
 
 function start() {
 
-    const divH = document.getElementsByClassName('header');
-    console.log(divH);
-    const divHeight = divH.getBoundingClientRect;
-    console.log(divHeight);
+    // const divH = document.getElementsByClassName('header');
+    // console.log(divH);
+    // const divHeight = divH.getBoundingClientRect;
+    // console.log(divHeight);
 
     canvas = document.querySelector('canvas');
 
