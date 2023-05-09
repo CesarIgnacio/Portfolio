@@ -1,0 +1,45 @@
+body {
+  width: 100%;
+}
+
+#tables {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bar,
+#doughnut {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  position: relative;
+}
+
+h1::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.25;
+  transform: scale(1.1, 1.5) skewX(10deg);
+  background: linear-gradient(to right, rgb(41, 148, 184), rgb(216, 185, 71));
+}
+
+span {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
